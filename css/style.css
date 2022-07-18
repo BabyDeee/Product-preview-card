@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat&display=swap');
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+}
+.green{
+    color:  hsl(158, 36%, 37%) !important;
+}
+.text-decoration-line-through{
+    color: hsl(228, 12%, 48%) !important;
+}
+.btn{
+    background-color: hsl(158, 36%, 37%) !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background-color: hsl(158, 40%, 28%) !important;
+}
+.text{
+    background-color: hsl(0, 0%, 100%) !important;
+}
+.col-md-6{
+    border-radius: 30px !important;
+}
+@media (min-width: 768px){
+    .card{
+        width: 80% !important;
+    }
+}
+@media (min-width: 992px){
+    .card{
+        width: 50% !important;
+    }
+}
